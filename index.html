@@ -1,1 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gumstack</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
 
+  <body>
+    <header id="header" class="border-0 py-4 bg-primary">
+      <div class="container pl-md-0 pr-md-0">
+        <nav class="navbar navbar-expand-lg navbar-dark pl-md-0 pr-md-0">
+          <a class="navbar-brand" href="#">
+            <img
+              src="image/logo.svg"
+              alt="Gumstack Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#gumstackNav"
+            aria-controls="gumstackNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="gumstackNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle ml-lg-0"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Use Cases
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Retail</a>
+                  <a class="dropdown-item" href="#">E-Commerce</a>
+                  <a class="dropdown-item" href="#">SaaS</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Developers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Sign in</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Schedule demo</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <link
+      rel="stylesheet"
+      href="css/splide.min.css"
+    />
+
+    <section id="hero">
+      <div class="container text-primary">
+        <div class="row justify-content-between">
+          <div class="col-12 col-lg-6 pt-lg-3 text-center text-lg-left px-lg-0">
+            <h1 class="mb-2">Meet your customers face-to-face</h1>
+            <p class="fs-24 font-weight-600 text-yellow mb-3">
+              Instantly on your website or app
+            </p>
+            <p class="subtitle px-3 px-lg-0">
+              Integrate video calling on your website or app in under 5 minutes.
+              Showcase your products, assist customers with their purchase or
+              help resolve issues faster with video.
+            </p>
+            <form
+              action="#"
+              method="get"
+              class="w-100"
+              
+            >
+              <div
+                class="d-flex flex-column flex-lg-row get-started mb-5 w-sm-100 mb-lg-0 align-items-md-center align-items-lg-start" style="align-items: center;"
+              >
+                <input
+                  type="text"
+                  name="email"
+                  class="pl-3 form-control border-0 w-50 w-sm-100 mt-0 text-lg-left text-center"
+                  placeholder="Your work email"
+                  style="height: 52px"
+                />
+                <div class="d-block">
+                  <button
+                    type="submit"
+                    class="btn btn-primary custom-btn demo-btn fs-16" style="display: flex;flex-wrap: nowrap;    align-items: center;"
+                  >
+                    Get started for free
+                    <img
+                      src="image/arrow.svg"
+                      class="ml-3"
+                      alt="Sorry image is not available"
+                    />
+                  </button>
+                  <p class="fs-12 text-light text-center mt-3">
+                    No credit card required
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center"
+          >
+            <img
+              src="image/hero_mockup.png"             
+              class="w-100 cursor-pointer object-fit-cover d-none d-lg-block"
+              style="max-width: 440px; max-height: 440px"
+              alt="Shopping"
+            />
+            <img
+              src="image/hero_mockup_mob.png"             
+              class="w-100 cursor-pointer object-fit-cover d-lg-none"
+              alt="Image not available"
+              style="max-width: 280px; max-height: 280px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="seamless">
+      <div class="container text-heading">
+        <div class="row text-center mb-5">
+          <div class="col-md-12">
+            <h1 class="text-primary">
+              Seamless one-on-one conversations with <br />
+              your website visitors
+            </h1>
+            <p class="text-dull mt-2">
+              Connect your customers to a <b>human</b> instantly without taking
+              them away from your website.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="seamless-item mt-0">
+              <img
+                src="image/device.svg"
+                alt="Sorry image is not available"
+              />
+              <p>Works on all devices</p>
+            </div>
+            <div class="seamless-item">
+              <img
+                src="image/click.svg"
+                alt="Sorry image is not available"
+              />
+              <p>1-Click video calls directly from browser</p>
+            </div>
+            <div class="seamless-item">
+              <img
+                src="image/optional.svg"
+                alt="Sorry image is not available"
+              />
+              <p>Optional video for customers</p>
+            </div>
+            <div class="seamless-item">
+              <img
+                src="image/no_downloads.svg"
+                alt="Sorry image is not available"
+              />
+              <p>No app downloads</p>
+            </div>
+            <a
+              href="javascript:void(0)"
+              class="btn btn-primary custom-btn demo-btn d-none d-lg-inline align-items-center mt-5"
+            >
+              Get in touch
+              <img
+                src="image/arrow_down.svg"
+                class="ml-3"
+                alt="Sorry image is not available"
+              />
+            </a>
+          </div>
+          <div
+            class="col-12 d-flex d-lg-none mt-lg-0 mt-5 flex-column align-items-center justify-content-center"
+          >
+            <a
+              href="javascript:void(0)"
+              class="btn btn-primary custom-btn demo-btn d-lg-none"
+            >
+              Get in touch
+              <img
+                src="image/arrow_down.svg"
+                class="ml-3"
+                alt="Sorry image is not available"
+              />
+            </a>
+          </div>
+          <div
+            class="col-12 col-lg-6 d-none d-lg-flex justify-content-end image-section"
+          >
+            <img
+              src="image/banner.svg"
+              class="w-100"
+              alt="Seamless"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-flex justify-content-center">
+      <div style="border: 8px solid #f6f6f6" class="w-75"></div>
+    </div>
+
+    <section id="app-flows">
+      <div class="container mt-lg-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h6 class="fs-16 fs-sm-14 text-dull">
+              Worried about missing calls from customers?
+            </h6>
+            <h1 class="mb-5 mb-lg-3 px-3 px-lg-0">
+              Book Calls. Unblock Experience.
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 order-lg-2 order-2 content">
+            <h3>Capture quality leads even while you're not around</h3>
+            <div class="item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Arrow"
+              />
+              <p>Schedule callback appointments during office hours</p>
+            </div>
+            <div class="item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Arrow"
+              />
+              <p>Sync appointments to your calendar and CRM</p>
+            </div>
+            <div class="item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Arrow"
+              />
+              <p>Reminders & notifications for callback appointments</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 order-lg-1 image">
+            <video
+              src="video/scheduling.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+        </div>
+        <hr class="d-lg-none" />
+        <div class="row">
+          <div class="col-12 col-lg-6 order-lg-1 order-2 content">
+            <h3>Add your team and scale customer conversations</h3>
+            <div class="item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Arrow"
+              />
+              <p>Show availability across your agents’ calendars</p>
+            </div>
+            <div class="item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Arrow"
+              />
+              <p>Route calls to the right team or agent.</p>
+            </div>
+            <div class="item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Arrow"
+              />
+              <p>Hand off calls to the qualified agent.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 order-lg-2 image">
+            <video
+              src="video/google-calendar.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center mb-2">
+          <a
+            href="javascript:void(0)"
+            class="btn btn-primary custom-btn demo-btn d-flex align-items-center mt-5"
+          >
+            Get started for free
+            <img
+              src="image/arrow.svg"
+              class="ml-3"
+              alt="Image not available"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="integration" class="bg-light-warning">
+      <div class="container">
+        <div class="row align-items-lg-center">
+          <div class="col-12 col-lg-6">
+            <div
+              class="d-flex flex-column align-items-center align-items-lg-start"
+            >
+              <h1 class="text-dark fs-32 mb-5">Integrate in under 5 minutes</h1>
+              <img
+                src="image/circle.png"
+                class="d-lg-none mb-4"
+                width="252px"
+                height="252px"
+                alt="Integrations"
+              />
+            </div>
+            <div class="integration-item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Sorry image is not available"
+              />
+              <div class="d-block">
+                <p>
+                  Add just a few lines of script to your website and get going.
+                </p>
+              </div>
+            </div>
+            <div class="integration-item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Sorry image is not available"
+              />
+              <div class="d-block">
+                <p>
+                  No-code installation for Shopify, Wordpress and via Google Tag
+                  Manager.
+                </p>
+              </div>
+            </div>
+            <div class="integration-item">
+              <img
+                src="image/arrow_right.svg"
+                alt="Sorry image is not available"
+              />
+              <div class="d-block">
+                <p>
+                  Use our javascript API and integrate video calling from any
+                  workflow.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <img
+              src="image/circle.png"
+              class="d-none d-lg-block"
+              width="368px"
+              height="368px"
+              alt="Integrations"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="functionalities">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg-12">
+            <h1 class="text-primary mb-lg-0 mb-2 fs-32">
+              Everything you need to delight your customers over video call
+            </h1>
+            <p class="fs-16 mb-5 mt-2" style="color: #5c717c">
+              Install Gumstack and get busy talking to your customers
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/agent.svg"
+              alt="Image not available"
+            />
+            <p>Agent Inbox</p>
+            <h5>
+              Allows agents to manage <br />their queue & answer <br />customers
+              from any device.
+            </h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/routing.svg"
+              alt="Image not available"
+            />
+            <p>Call Routing</p>
+            <h5>Route your calls to the <br />right agent.</h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/calender.svg"
+              alt="Image not available"
+            />
+            <p>Calendar</p>
+            <h5>
+              Manage your team’s <br />schedules, availability and
+              <br />workload.
+            </h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/recording.svg"
+              alt="Image not available"
+            />
+            <p>Recording</p>
+            <h5>
+              Use recordings to train<br />
+              your agents to be more <br />effective.
+            </h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/notifications.svg"
+              alt="Image not available"
+            />
+            <p>Reminders</p>
+            <h5>
+              Notifications and alerts to <br />agents and customers, so
+              <br />no calls go unanswered.
+            </h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/crm.svg"
+              alt="Image not available"
+            />
+            <p>CRM Integration</p>
+            <h5>
+              Automatically sync <br />
+              contact and call records <br />
+              to your CRM.
+            </h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/scheduling.svg"
+              alt="Image not available"
+            />
+            <p>Scheduling</p>
+            <h5>
+              Automatically assign <br />scheduled calls to the <br />available
+              agent.
+            </h5>
+          </div>
+          <div
+            class="col-6 col-lg-3 block-item d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="image/dashboard.svg"
+              alt="Image not available"
+            />
+            <p>Dashboard</p>
+            <h5>
+              Monitor response times <br />and improve the overall
+              <br />customer experience.
+            </h5>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="d-none d-lg-block">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-primary custom-btn demo-btn d-flex align-items-center mt-5"
+            >
+              Get started for free
+              <img
+                src="image/arrow.svg"
+                class="ml-3"
+                alt="Image not available"
+              />
+            </a>
+          </div>
+          <div
+            class="col-12 d-flex flex-column align-items-center justify-content-center"
+          >
+            <a
+              href="javascript:void(0)"
+              class="btn btn-primary custom-btn demo-btn d-lg-none"
+            >
+              Get started for free
+              <img
+                src="image/arrow.svg"
+                class="ml-3"
+                alt="Image not available"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonal" class="bg-light-warning">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1 class="fs-32 fs-sm-28 px-3 px-md-0">You are in good company</h1>
+            <div class="d-flex flex-column align-items-center my-5">
+              <img
+                src="image/koskii.png"
+                width="100px"
+                height="100px"
+                alt="Image not available"
+              />
+              <p class="fs-20 text-dark font-weight-600 mb-1 mt-4">
+                Sameen Eajaz
+              </p>
+              <p class="fs-16 text-dull-black">COO, Co-Founder, Koskii</p>
+              <svg
+                width="112"
+                height="16"
+                viewBox="0 0 112 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.99882 0C7.47543 0 7.0102 0.291135 6.79697 0.776359L5.03296 4.50288L1.13663 5.08515C0.400008 5.2016 -0.0846104 5.88092 0.0123133 6.59905C0.0510827 6.87078 0.186776 7.12309 0.380623 7.33659L3.24956 10.2868L2.5711 14.4403C2.45479 15.1584 2.93941 15.8571 3.67603 15.9736C3.9668 16.0124 4.27695 15.9736 4.52895 15.8183L7.99882 13.9162L11.4687 15.8377C12.1084 16.1871 12.9225 15.9542 13.2715 15.3137C13.4072 15.042 13.4653 14.7508 13.4265 14.4597L12.7481 10.3062L15.617 7.37541C16.1404 6.85137 16.121 5.99737 15.5976 5.49274C15.4038 5.29865 15.1518 5.16279 14.861 5.12397L10.9647 4.50288L9.20067 0.75695C8.98744 0.291134 8.52221 0 7.99882 0Z"
+                  fill="#FFA63F"
+                />
+                <path
+                  d="M31.9988 0C31.4754 0 31.0102 0.291135 30.797 0.776359L29.033 4.50288L25.1366 5.08515C24.4 5.2016 23.9154 5.88092 24.0123 6.59905C24.0511 6.87078 24.1868 7.12309 24.3806 7.33659L27.2496 10.2868L26.5711 14.4403C26.4548 15.1584 26.9394 15.8571 27.676 15.9736C27.9668 16.0124 28.277 15.9736 28.529 15.8183L31.9988 13.9162L35.4687 15.8377C36.1084 16.1871 36.9225 15.9542 37.2715 15.3137C37.4072 15.042 37.4653 14.7508 37.4265 14.4597L36.7481 10.3062L39.617 7.37541C40.1404 6.85137 40.121 5.99737 39.5976 5.49274C39.4038 5.29865 39.1518 5.16279 38.861 5.12397L34.9647 4.50288L33.2007 0.75695C32.9874 0.291134 32.5222 0 31.9988 0Z"
+                  fill="#FFA63F"
+                />
+                <path
+                  d="M55.9988 0C55.4754 0 55.0102 0.291135 54.797 0.776359L53.033 4.50288L49.1366 5.08515C48.4 5.2016 47.9154 5.88092 48.0123 6.59905C48.0511 6.87078 48.1868 7.12309 48.3806 7.33659L51.2496 10.2868L50.5711 14.4403C50.4548 15.1584 50.9394 15.8571 51.676 15.9736C51.9668 16.0124 52.277 15.9736 52.529 15.8183L55.9988 13.9162L59.4687 15.8377C60.1084 16.1871 60.9225 15.9542 61.2715 15.3137C61.4072 15.042 61.4653 14.7508 61.4265 14.4597L60.7481 10.3062L63.617 7.37541C64.1404 6.85137 64.121 5.99737 63.5976 5.49274C63.4038 5.29865 63.1518 5.16279 62.861 5.12397L58.9647 4.50288L57.2007 0.75695C56.9874 0.291134 56.5222 0 55.9988 0Z"
+                  fill="#FFA63F"
+                />
+                <path
+                  d="M79.9988 0C79.4754 0 79.0102 0.291135 78.797 0.776359L77.033 4.50288L73.1366 5.08515C72.4 5.2016 71.9154 5.88092 72.0123 6.59905C72.0511 6.87078 72.1868 7.12309 72.3806 7.33659L75.2496 10.2868L74.5711 14.4403C74.4548 15.1584 74.9394 15.8571 75.676 15.9736C75.9668 16.0124 76.277 15.9736 76.529 15.8183L79.9988 13.9162L83.4687 15.8377C84.1084 16.1871 84.9225 15.9542 85.2715 15.3137C85.4072 15.042 85.4653 14.7508 85.4265 14.4597L84.7481 10.3062L87.617 7.37541C88.1404 6.85137 88.121 5.99737 87.5976 5.49274C87.4038 5.29865 87.1518 5.16279 86.861 5.12397L82.9647 4.50288L81.2007 0.75695C80.9874 0.291134 80.5222 0 79.9988 0Z"
+                  fill="#FFA63F"
+                />
+                <path
+                  d="M103.999 0C103.475 0 103.01 0.291135 102.797 0.776359L101.033 4.50288L97.1366 5.08515C96.4 5.2016 95.9154 5.88092 96.0123 6.59905C96.0511 6.87078 96.1868 7.12309 96.3806 7.33659L99.2496 10.2868L98.5711 14.4403C98.4548 15.1584 98.9394 15.8571 99.676 15.9736C99.9668 16.0124 100.277 15.9736 100.529 15.8183L103.999 13.9162L107.469 15.8377C108.108 16.1871 108.923 15.9542 109.271 15.3137C109.407 15.042 109.465 14.7508 109.427 14.4597L108.748 10.3062L111.617 7.37541C112.14 6.85137 112.121 5.99737 111.598 5.49274C111.404 5.29865 111.152 5.16279 110.861 5.12397L106.965 4.50288L105.201 0.75695C104.987 0.291134 104.522 0 103.999 0Z"
+                  fill="#FFA63F"
+                />
+              </svg>
+            </div>
+            <p class="fs-32 fs-sm-20 mt-5" style="color: #2d204d">
+              “The app is exactly what we were looking for and has helped us add
+              another sales channel very quickly.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="short_video" class="p-0 position-relative short_banner">
+      <img
+        src="image/person_banner.png"
+        class="position-absolute top left w-100 object-fit-cover d-none d-md-block"
+        style="height: 332px"
+        alt="Sorry image is not available"
+      />
+      <img
+        src="image/person_banner_mob.png"
+        class="position-absolute top-0 left-0 w-100 object-fit-cover d-md-none"
+        style="height: 500px"
+        alt="Sorry image is not available"
+      />
+      <div class="container short_banner">
+        <div class="row h-100">
+          <div
+            class="col-12 col-md-12 d-flex flex-column align-items-center justify-content-center"
+          >
+            <h1 class="text-light text-center fs-32 font-weight-600 mb-4">
+              Ready to meet your customers face to face?
+            </h1>
+            <button
+              class="btn btn-dark custom-btn demo-btn d-none d-md-flex align-items-center mt-0"
+            >
+              Start a free trial
+              <img
+                src="image/arrow.svg"
+                class="ml-2"
+                alt="Arrow"
+              />
+            </button>
+          </div>
+          <div
+            class="col-12 d-flex d-md-none flex-column align-items-center justify-content-center"
+          >
+            <a class="btn btn-primary custom-btn demo-btn d-md-none" >
+              Start a free trial
+              <img
+                src="image/arrow.svg"
+                class="ml-3"
+                alt="Sorry image is not available"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="request-overlay">
+      <img
+        id="close-request-invite"
+        src="image/close.svg"
+        alt="Close"
+      />
+    </div>
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-2 d-flex flex-column">
+            <h3 class="text-dark fs-20 font-weight-600 mb-4">Use cases</h3>
+            <a href="#" class="fs-14 text-dull mb-3">Retail</a>
+            <a href="#" class="fs-14 text-dull mb-3">E-Commerce</a>
+            <a href="#" class="fs-14 text-dull mb-3">SaaS</a>
+            <hr class="d-lg-none w-100 mb-5" />
+          </div>
+
+          <div class="col-12 col-lg-2 d-flex flex-column">
+            <h3 class="text-dark fs-20 font-weight-600 mb-4">Integrations</h3>
+            <a
+              href="#"
+              class="fs-14 text-dull mb-3"
+              >Shopify</a
+            >
+            <a
+              href="#"
+              class="fs-14 text-dull mb-3"
+              >Google Tag Manager</a
+            >
+            <hr class="d-lg-none w-100 mb-5" />
+          </div>
+          <div class="col-12 col-lg-2 d-flex flex-column">
+            <h3 class="text-dark fs-20 font-weight-600 mb-4">Compare</h3>
+            <a href="#" class="fs-14 text-dull mb-3"
+              ><span class="text-dull-light">Vs</span> WhatsApp</a
+            >
+            <a href="#" class="fs-14 text-dull mb-3"
+              ><span class="text-dull-light">Vs</span> Facetime</a
+            >
+            <hr class="d-lg-none w-100 mb-5" />
+          </div>
+          <div class="col-12 col-lg-2 d-flex flex-column">
+            <h3 class="text-dark fs-20 font-weight-600 mb-4">Support</h3>
+            <a class="fs-14 text-dull mb-3" >Talk to us on Gumstack</a>
+            <a href="" class="fs-14 text-dull mb-3">Chat with us</a>
+            <hr class="d-lg-none w-100 mb-5" />
+          </div>
+          <div class="col-12 col-lg-2 d-flex flex-column">
+            <h3 class="text-dark fs-20 font-weight-600 mb-4">Resources</h3>
+            <a
+              href="#"
+              class="fs-14 text-dull mb-3"
+              >Developer API</a
+            >
+            <a
+              class="fs-14 text-dull mb-3 user-select-none"
+              >Download Agent apps</a
+            >
+            <br />
+            <a
+              href="#"
+            >
+              <img
+                src="image/app_store.png"
+                class="app_store"
+                alt="App store"
+              />
+            </a>
+            <br />
+            <a
+              href="#"
+            >
+              <img
+                src="image/play_store.png"
+                class="play_store"
+                alt="Play store"
+              />
+            </a>
+            <hr class="d-lg-none w-100 mb-5" />
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+    </section>
+    <hr class="d-none d-lg-block" />
+    <footer>
+      <div class="container-fluid mb-2">
+        <div class="row">
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-start justify-content-lg-center mb-5 mb-lg-0"
+          >
+            <div class="social-icons d-flex align-items-center">
+              <a href="#" class="mr-4"
+                ><img
+                  src="image/linkedin.svg"
+                  alt="Image not available"
+              /></a>
+              <a href="#"
+                ><img
+                  src="image/twitter.svg"
+                  alt="Image not available"
+              /></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 d-none d-lg-block">
+            <p class="fs-14 text-dull font-weight-500 mb-0">
+              &#169; Copyright Gumstack Inc. 2021- All rights reserved
+            </p>
+          </div>
+          <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+            <a href="#" class="text-dull fs-14 font-weight-500"
+              >Terms & Conditions</a
+            >
+          </div>
+          <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+            <a
+              href="#"
+              class="text-dull fs-14 font-weight-500"
+              >Privacy Policy</a
+            >
+          </div>
+          <div class="col-12 col-lg-2 d-lg-none">
+            <a href="#" class="text-dull-light text-center fs-14 font-weight-500"
+              >&#169; Copyright Gumstack Inc. 2021- All rights reserved</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="video-popup position-fixed left-0 top-0 d-flex flex-column align-items-center justify-content-center w-100 h-100 bg-black-transparent invisible"
+    >
+      <div
+        class="bg-white rounded w-100 h-100"
+        style="max-width: 1000px; max-height: 600px"
+      >
+        
+      </div>
+      <a
+        href="javascript:void(0)"
+        onclick="toggleVideoPopup(false,'')"
+        class="position-absolute"
+        style="top: 20px; right: 20px"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="60px"
+          viewBox="0 0 40 40"
+          width="60px"
+          fill="#FFFFFF"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+        </svg>
+      </a>
+    </div>
+    <script
+      async="true"
+      defer="defer"
+      src="js/index.js"
+    ></script>
+    <!-- <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-0QVXYWG48H");
+    </script> -->
+    <script
+      src="js/slim.min.js" 
+    ></script>
+    <script
+      src="js/popper.min.js"
+    ></script>
+    <script
+      src="js/bootstrap.min.js"
+    ></script>
+  </body>
+</html>
